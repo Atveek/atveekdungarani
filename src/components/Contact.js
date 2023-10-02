@@ -6,8 +6,6 @@ const initialstate = {
   message: "",
 };
 export default function Contact() {
-  const apiUrl = process.env.REACT_APP_API_URL;
-  const apiKey = process.env.REACT_APP_API_KEY;
   const [user, setUser] = useState(initialstate);
   let name, value;
   const handleChange = (e) => {
@@ -19,7 +17,7 @@ export default function Contact() {
   const submit = async (e) => {
     e.preventDefault();
     const { name, email, message } = user;
-    const res = await fetch(apiUrl + apiKey, {
+    const res = await fetch("/api/review", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
