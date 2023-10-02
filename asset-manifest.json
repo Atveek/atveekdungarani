@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/atveekdungarani/static/css/main.5a1c0083.css",
-    "main.js": "/atveekdungarani/static/js/main.c6f24fdb.js",
+    "main.js": "/atveekdungarani/static/js/main.2f7d5a04.js",
     "static/js/787.cda612ba.chunk.js": "/atveekdungarani/static/js/787.cda612ba.chunk.js",
     "static/media/profile-pic (3).png": "/atveekdungarani/static/media/profile-pic (3).ffea1a9c11504e9fecc1.png",
     "static/media/icons8-instagram-500.png": "/atveekdungarani/static/media/icons8-instagram-500.a3a7519a1733b630f5b7.png",
     "static/media/logo.png": "/atveekdungarani/static/media/logo.da57150804633ae4dce9.png",
     "index.html": "/atveekdungarani/index.html",
     "main.5a1c0083.css.map": "/atveekdungarani/static/css/main.5a1c0083.css.map",
-    "main.c6f24fdb.js.map": "/atveekdungarani/static/js/main.c6f24fdb.js.map",
+    "main.2f7d5a04.js.map": "/atveekdungarani/static/js/main.2f7d5a04.js.map",
     "787.cda612ba.chunk.js.map": "/atveekdungarani/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5a1c0083.css",
-    "static/js/main.c6f24fdb.js"
+    "static/js/main.2f7d5a04.js"
   ]
 }
