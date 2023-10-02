@@ -17,13 +17,16 @@ export default function Contact() {
   const submit = async (e) => {
     e.preventDefault();
 
-    const res = await fetch("/api/review", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(user),
-    });
+    const res = await fetch(
+      "https://atveek-backend-api.onrender.com/api/review",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(user),
+      }
+    );
     const data = await res.json();
     if (data.status === 422 || !data) {
       window.alert("invalid data");

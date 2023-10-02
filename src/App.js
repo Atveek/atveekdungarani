@@ -14,10 +14,18 @@ function App() {
         <div className="max-w-[1700px] m-auto bg-black">
           <Navbar />
           <Routes>
-            <Route exact path="/" element={<Home />} />
-            <Route exact path="/about" element={<About />} />
-            <Route exact path="/project" element={<Project />} />
-            <Route exact path="/contact" element={<Contact />} />
+            <Route exact path="/atveekdungarani/" element={<Home />} />
+            <Route exact path="/atveekdungarani/about" element={<About />} />
+            <Route
+              exact
+              path="/atveekdungarani/project"
+              element={<Project />}
+            />
+            <Route
+              exact
+              path="/atveekdungarani/contact"
+              element={<Contact />}
+            />
           </Routes>
           <Footer />
         </div>
