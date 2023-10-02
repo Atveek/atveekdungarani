@@ -14,25 +14,25 @@ export default function Navbar() {
         </div>
         <ul className="flex  flex-row justify-between w-[50%] font-Akaya text-white text-[26px] mr-10">
           <li>
-            <Link to="/" onClick={handleClick}>
+            <Link to="/atveekdungarani/" onClick={handleClick}>
               Home
             </Link>
           </li>
           <li>
-            <Link to="/about" onClick={handleClick}>
+            <Link to="/atveekdungarani/about" onClick={handleClick}>
               About
             </Link>
           </li>
           <li>
-            <Link to="/">Resume</Link>
+            <Link to="/atveekdungarani/">Resume</Link>
           </li>
           <li>
-            <Link to="/project" onClick={handleClick}>
+            <Link to="/atveekdungarani/project" onClick={handleClick}>
               Project
             </Link>
           </li>
           <li>
-            <Link to="/contact" onClick={handleClick}>
+            <Link to="/atveekdungarani/contact" onClick={handleClick}>
               Contact us
             </Link>
           </li>
