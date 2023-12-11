@@ -1,14 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url("https://fonts.googleapis.com/css2?family=Akaya + Kanadaka&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=sans + Kanadaka&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Offside&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Galada&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Patua+One&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Tauri&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=serif+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=serif&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Aladin&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=sans+Surfer&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Pattaya&display=swap");
 
 @layer utilities {

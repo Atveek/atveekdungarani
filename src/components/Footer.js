@@ -30,14 +30,14 @@ export default function Footer() {
           <img src={x} className="w-[46px]" alt="Logo" />
         </a>
         <a
-          href="https://www.linkedin.com/in/atveek-dungarani-775b72234/?trk=public_profile_browsemap&originalSubdomain=in"
+          href="https://www.linkedin.com/in/atveek-dungarani-775b72234/?trk=public_profile_browsemap&sansSubdomain=in"
           target="_blank"
           rel="noreferrer"
         >
           <img src={LinkedIn} className="w-[46px]" alt="Logo" />
         </a>
       </div>
-      <div className="text-white text-xl font-normal font-Pattaya mr-8">
+      <div className="text-white text-base font-normal font-Pattaya mr-8">
         Created by Atveek Dungarani
       </div>
     </div>

@@ -17,7 +17,7 @@ export default function Home() {
           I'm Atveek Dungarani. A Full Stack Developer{" "}
           <span className="text-[#727272] font-inter m-0">based in India.</span>
         </h1>
-        <p className="absolute w-[802px] text-white text-xl font-normal font-Galada tracking-wide bottom-28 right-20">
+        <p className="absolute w-[802px] text-white text-base font-normal font-serif tracking-wide bottom-28 right-20">
           I'm probably the most passionate Developer you will ever get to work
           with. If you have a great project that needs some amazing skills, I'm
           your guy.

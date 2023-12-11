@@ -4,14 +4,9 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        Akaya: ["Akaya Kanadaka", "cursive"],
         offside: ["Offside", "cursive"],
         inter: ["Inter", "sans-serif"],
-        Galada: ["Galada", "cursive"],
-        Patua: ["Patua One", "cursive"],
-        Tauri: ["Tauri", "sans-serif"],
         Aladin: ["Aladin", "cursive"],
-        Original: ["Original Surfer", "cursive"],
         Pattaya: ["Pattaya", "sans-serif"],
       },
       dropShadow: {

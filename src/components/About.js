@@ -4,23 +4,23 @@ import Skills from "../Data/Skill";
 
 export default function About() {
   return (
-    <div className="bg-black w-full h-auto pb-8">
-      <h1 className="relative font-Akaya text-white m-auto text-[40px] text-center p-20 tracking-wide  after:content-[''] after:w-[72px] after:h-[9.33px] after:absolute after:bg-[#15CD6A] after:top-[160px] after:right-[47%] after:rounded-[222px]">
+    <div className="bg-black w-full h-auto pb-5">
+      <h1 className="relative font-sans text-white m-auto text-[30px] text-center p-16 tracking-wide  after:content-[''] after:w-[72px] after:h-[9.33px] after:absolute after:bg-[#15CD6A] after:top-[130px] after:right-[47%] after:rounded-[222px]">
         ABOUT ME
       </h1>
-      <p className="w-[960px] m-auto h-[71.94px] text-center text-neutral-500 text-xl font-normal font-Patua leading-9">
+      <p className="w-[960px] m-auto h-[30.94px] text-center text-neutral-500 text-base font-normal font-serif leading-9">
         Here you will find more information about me, what I do, and my current
         skills mostly in terms of programming and technology
       </p>
 
       <div className="flex  items-center w-full flex-row justify-between">
-        <div className="w-[45%] mt-[80px] ml-[70px]">
-          <h1 className="w-[187px] h-[46.96px]  text-white text-[26px] font-normal font-Patua leading-[47.40px]">
+        <div className="w-[45%] mt-[20px] ml-[70px]">
+          <h1 className="w-[250px] h-[46.96px]  text-white text-[23px] font-normal font-serif leading-[47.40px]">
             Get to know me!
           </h1>
           <br />
           <br />
-          <p className="w-[680px] h-[370.66px] text-white text-lg font-normal font-Tauri leading-9">
+          <p className="w-[680px] h-[370.66px] text-white text-base font-normal font-serif leading-7">
             I'm a Full-Stack web developer based in India, and I'm deeply
             passionate about creating innovative web applications. My journey in
             this field started during my college years when I took my first
@@ -35,8 +35,8 @@ export default function About() {
             on this exciting journey together.
           </p>
         </div>
-        <div className="w-[45%] mt-[80px] mr-[50px]">
-          <h1 className="w-[187px] h-[46.96px] text-white text-[26px] font-normal font-Patua leading-[47.40px]">
+        <div className="w-[45%] mt-[20px] mr-[50px]">
+          <h1 className="w-[187px] h-[20.96px] text-white text-[23px] font-normal font-serif leading-[47.40px]">
             My Skill
           </h1>
           <br />

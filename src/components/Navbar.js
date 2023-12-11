@@ -1,6 +1,7 @@
 import React from "react";
 import { Outlet, Link } from "react-router-dom";
 import src from "../img/logo.png";
+
 export default function Navbar() {
   const handleClick = () => {
     // 👇️ scroll to top on page load
@@ -12,7 +13,7 @@ export default function Navbar() {
         <div className="flex w-[30%] justify-center items-center">
           <img src={src} className="w-[115px]  h-[48px]" alt="Logo"></img>
         </div>
-        <ul className="flex  flex-row justify-between w-[50%] font-Akaya text-white text-[26px] mr-10">
+        <ul className="flex  flex-row justify-between w-[50%] font-sans text-white text-[23px] mr-10">
           <li>
             <Link to="/atveekdungarani/" onClick={handleClick}>
               Home
